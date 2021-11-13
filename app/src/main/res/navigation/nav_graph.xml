@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.cryoggen.android.vklikes.main.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_LoginFragment_to_overviewFragment"
+            app:destination="@id/overviewFragment" />
+        <argument
+            android:name="newLogin"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/overviewFragment"
+        android:name="com.cryoggen.android.vklikes.overview.OverviewFragment"
+        android:label="fragment_overview">
+        <action
+            android:id="@+id/action_showDetail"
+            app:destination="@id/detailFragment" />
+
+        <action
+            android:id="@+id/action_overviewFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <argument
+            android:name="token"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.cryoggen.android.vklikes.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="selectedItemPhoto"
+            app:argType="com.cryoggen.android.vklikes.network.ItemPhoto" />
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,11 @@
+
+<resources>
+    <string name="app_name">Vkontakte likes</string>
+
+    <string name="display_likes">Likes: %s</string>
+    <string name="display_date">Date: %s</string>
+
+    <integer name="com_vk_sdk_AppId">5378880</integer>
+
+</resources>
+

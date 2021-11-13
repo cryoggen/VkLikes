@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vk:android-sdk-api:3.4.0@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-3/4cc5cc8eac882e5a7d3af9a502e3d9a8/transformed/jetified-android-sdk-api-3.4.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-3/4cc5cc8eac882e5a7d3af9a502e3d9a8/transformed/jetified-android-sdk-api-3.4.0/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-3/4cc5cc8eac882e5a7d3af9a502e3d9a8/transformed/jetified-android-sdk-api-3.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.vk/android-sdk-api/3.4.0/8a1d6057a02679174f597c7cb1413558f1341366/android-sdk-api-3.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.vk/android-sdk-api/3.4.0/8d26acd92598e71826846eb0bd2c6f677893012e/android-sdk-api-3.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

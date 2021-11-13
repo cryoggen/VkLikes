@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.cryoggen.android.vklikes.overview.OverviewViewModel" />
+
+        <variable
+            name="property"
+            type="com.cryoggen.android.vklikes.network.ItemPhoto" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:id="@+id/vk_image"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
+            android:scaleType="centerCrop"
+            app:imageUrl="@{property.sizes}"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/likes_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="8sp"
+            android:adjustViewBounds="true"
+            android:fontFamily="@font/abeezee"
+            android:padding="5dp"
+            android:shadowColor="@color/black_likes_color"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:singleLine="false"
+            android:soundEffectsEnabled="false"
+            android:textColor="@color/white_likes_text"
+            android:textSize="@dimen/font_likes_size"
+            android:textStyle="bold|italic"
+            app:likesCount="@{property}"
+            tools:text="128" />
+
+    </FrameLayout>
+</layout>
+
