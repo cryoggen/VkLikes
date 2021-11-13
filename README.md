@@ -10,6 +10,42 @@ You can also click on the "Sign up" button in the application itself. When start
 
 ### Screenshots
 
-![Screenshot 1](/Screenshots/Screenshot_1636826986.png)
-![Screenshot 2](/Screenshots/Screenshot_1636410251.png)
-![Screenshot 3](/Screenshots/Screenshot_1636410258.png)
+![Screenshot 1](/screenshots/Screenshot_1636826986.png)
+![Screenshot 2](/screenshots/Screenshot_1636410251.png)
+![Screenshot 3](/screenshots/Screenshot_1636410258.png)
+
+### Installation
+
+To get the project running on your local machine, you need to follow these steps:
+
+**Step 1: Clone the repo**
+
+Use this to clone it to your local machine:
+```bash
+git clone https://github.com/Sergey-Svetlov/AsteroidRadar.git
+```
+
+**Step 2: Check out the ‘master’ branch**
+
+This branch is going to let you start working with it. The command to check out a branch would be:
+
+```bash
+git checkout master
+```
+
+**Step 3: Сonnect your application VKontakte**
+
+You must create and connect your VKontakte application to the current code. To do this, follow steps 1 and 2 by clicking on the link:
+[Android SDK Vkontatkre](https://vk.com/dev/android_sdk)
+
+#### App use libraries and technologies:
+
+- ViewModel
+- LiveData
+- Data Binding
+- Navigation
+- Retrofit2
+- Glide
+- Moshi
+- Recyclerview
+- SharedPreferences
