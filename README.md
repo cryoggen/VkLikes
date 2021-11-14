@@ -1,5 +1,5 @@
 # Vk Likes
-Vk likes - application sorts your images on the Vkontakte social network by the number of likes.
+Vk Likes - application sorts your images on the Vkontakte social network by the number of likes.
 
 In order to use the application, you need to register on the VKontakte social network site. You can do this on the official website of the social network [vk.com](https://vk.com)
 You can also click on the "Sign up" button in the application itself. When starting the application, you can log in in two ways:
@@ -22,7 +22,7 @@ To get the project running on your local machine, you need to follow these steps
 
 Use this to clone it to your local machine:
 ```bash
-git clone https://github.com/cryoggen/AsteroidRadar.git
+git clone https://github.com/cryoggen/VkLikes.git
 ```
 
 **Step 2: Check out the ‘master’ branch**
