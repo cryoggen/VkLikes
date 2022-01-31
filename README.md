@@ -36,7 +36,7 @@ git checkout master
 **Step 3: Сonnect your application VKontakte**
 
 You must create and connect your VKontakte application to the current code. To do this, follow steps 1 and 2 by clicking on the link:
-[Android SDK Vkontatkre](https://vk.com/dev/android_sdk)
+[Android SDK Vkontatke](https://vk.com/dev/android_sdk)
 
 #### App use libraries and technologies:
 
